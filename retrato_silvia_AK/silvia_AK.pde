@@ -1,4 +1,6 @@
-void silvia_AK() {
+void silvia_AK(float posx, float posy) {
+  push();
+  translate(posx,posy);
   //pelo//
   line(m*7, m, m*4, m*1);
   line(m*4, m*1, m*5, m*2);
@@ -46,4 +48,5 @@ void silvia_AK() {
   fill(0);
   ellipse(m*5, m*7.4, m/3, m/3);
   ellipse(m*7.5, m*8.4, m/3, m/3);
+  pop();
 }

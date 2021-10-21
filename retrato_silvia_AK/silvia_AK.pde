@@ -46,5 +46,4 @@ void silvia_AK() {
   fill(0);
   ellipse(m*5, m*7.4, m/3, m/3);
   ellipse(m*7.5, m*8.4, m/3, m/3);
-  noLoop();
 }
